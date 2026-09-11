@@ -46,7 +46,7 @@ public class Student {
     }
 
     public String toString() {
-        return name + "is in grade " + grade + " and has id " + id + ".";
+        return name + " is in grade " + grade + " and has id " + id + ".";
     }
 
     public boolean equals(Student other) {

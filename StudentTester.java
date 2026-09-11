@@ -5,8 +5,6 @@ public class StudentTester {
         System.out.println("Equal: " + a.equals(a));
         Student b = new Student("Jane", 11);
         System.out.println(b.toString());
-        System.out.println("Grade: " + b.getGrade());
-        System.out.println("Id: " + b.getId());
         System.out.println("Equal: " + b.equals(b));
         Student c = new Student("Jack", 12);
         System.out.println("Name: " + c.getName());
