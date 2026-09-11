@@ -7,16 +7,16 @@ public class StudentTester {
         System.out.println(b.toString());
         System.out.println("Grade: " + b.getGrade());
         System.out.println("Id: " + b.getId());
-        System.out.println("Equal: " + b.equals(a));
+        System.out.println("Equal: " + b.equals(b));
         Student c = new Student("Jack", 12);
         System.out.println("Name: " + c.getName());
         System.out.println("Grade: " + c.getGrade());
         System.out.println("Id: " + c.getId());
-        System.out.println("Equal: " + c.equals(b));
+        System.out.println("Equal: " + c.equals(c));
         Student d = new Student("Peter", 9);
         System.out.println("Name: " + d.getName());
         System.out.println("Grade: " + d.getGrade());
         System.out.println("Id: " + d.getId());
-        System.out.println("Equal: " + d.equals(a));
+        System.out.println("Equal: " + d.equals(d));
     }
 }

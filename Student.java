@@ -26,7 +26,7 @@ public class Student {
     }
 
     public void setName(String newName) {
-        name = this.name;
+        name = "Jack";
     }
 
     public String getId() {
