@@ -14,10 +14,11 @@ public class StudentTester {
         System.out.println("Id: " + c.getId());
 
 
-        Student d = new Student("Peter", 9);
+        Student d = new Student("John", 10);
         System.out.println("Name: " + d.getName());
         System.out.println("Grade: " + d.getGrade());
         System.out.println("Id: " + d.getId());
+        System.out.println("Equal: " + c.equals(a));
 
     }
 }

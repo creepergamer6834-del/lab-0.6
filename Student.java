@@ -50,7 +50,11 @@ public class Student {
     }
 
     public boolean equals(Student other) {
-        return name.equals(other.name) && id.equals(other.id) && grade == other.grade;
+        if (name.equals(other.name) && id.equals(other.id) && grade == other.grade) {
+            return true;
+        } else {
+            return false;
+        }
 
     }
 }
