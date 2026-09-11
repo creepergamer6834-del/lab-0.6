@@ -1,6 +1,6 @@
 public class StudentTester {
     public static void main(String[] args) {
-        Student a = new Student("John", 10);
+        Student a = new Student("John", 12);
         System.out.println(a.toString());
         System.out.println("Equal: " + a.equals(a));
         Student b = new Student("Jane", 11);
