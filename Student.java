@@ -34,7 +34,7 @@ public class Student {
     }
 
     public void setId(String newId) {
-        id = this.id;
+        this.id = id;
     }
 
     public int getGrade() {
@@ -42,7 +42,7 @@ public class Student {
     }
 
     public void setGrade(int newGrade) {
-        grade = this.grade;
+        this.grade = grade;
     }
 
     public String toString() {
